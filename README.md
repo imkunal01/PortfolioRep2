@@ -1,23 +1,67 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **React Todo App** where you can add, check off, and delete tasks. Built to demonstrate basic React concepts such as state management, component structure, and event handling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add new tasks
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
+- 💾 Optional localStorage support (can be added)
+- 📱 Responsive and clean UI
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# PortfolioRep2
-One Mini Project that Every recruiter hates ToDo App 
->>>>>>> 49ef8a641f8b8787602d55f3764211c1e89238c0
-=======
-# PortfolioRep2
+> *(Add a screenshot here by replacing the path below)*  
+![App Screenshot](./screenshot.png)
 
-One Mini Project that Every recruiter hates: ToDo App.
->>>>>>> 0f0c3185097fca4a48e80cd1118f611517134ad8
+## 🛠 Tech Stack
+
+- [React](https://reactjs.org/) (with Hooks)
+- [Vite](https://vitejs.dev/) or Create React App
+- Vanilla CSS
+
+## 📂 Project Structure
+
+todo-app/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ └── Todo.jsx
+│ ├── App.jsx
+│ ├── index.js
+│ └── todo.css
+├── .gitignore
+├── package.json
+└── README.md
+
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/todo-app.git
+cd todo-app
+npm install
+npm run dev      # if using Vite
+# or
+npm start        # if using Create React App
+✨ Usage
+Type in your task
+
+Hit Enter or click "Add"
+
+Click checkbox ✅ to mark as done
+
+Click 🗑️ icon to delete task
+
+🧠 Future Enhancements
+ Save tasks in localStorage
+
+ Filter by status (All / Completed / Active)
+
+ Add task due date
+
+ Add animations and dark mode
