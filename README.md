@@ -1,4 +1,6 @@
-# React + Vite
+# PortfolioRep2
+
+One Mini Project that Every recruiter hates: ToDo App.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
