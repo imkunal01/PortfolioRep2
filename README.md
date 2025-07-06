@@ -1,4 +1,6 @@
-# 📝 Todo App One Mini Project that every recruiter hates :)
+# 📝 Todo App 
+
+A Project that every recruiter hates :)
 
 A simple and clean **React Todo App** where you can add, check off, and delete tasks. Built to demonstrate basic React concepts such as state management, component structure, and event handling.
 
