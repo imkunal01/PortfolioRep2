@@ -10,11 +10,6 @@ A simple and clean **React Todo App** where you can add, check off, and delete t
 - 💾 Optional localStorage support (can be added)
 - 📱 Responsive and clean UI
 
-## 📸 Preview
-
-> *(Add a screenshot here by replacing the path below)*  
-![App Screenshot](./screenshot.png)
-
 ## 🛠 Tech Stack
 
 - [React](https://reactjs.org/) (with Hooks)
@@ -22,7 +17,7 @@ A simple and clean **React Todo App** where you can add, check off, and delete t
 - Vanilla CSS
 
 ## 📂 Project Structure
-
+``
 todo-app/
 ├── public/
 │ └── index.html
@@ -34,15 +29,13 @@ todo-app/
 │ └── todo.css
 ├── .gitignore
 ├── package.json
-└── README.md
+└── README.md ``
 
 
 ## 📦 Getting Started
-
+```
 ### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/imkunal01/PortfolioRep2.git
 cd todo-app
 npm install
 npm run dev      # if using Vite
@@ -64,4 +57,4 @@ Click 🗑️ icon to delete task
 
  Add task due date
 
- Add animations and dark mode
+ Add animations and dark mode 
