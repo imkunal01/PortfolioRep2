@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './todo.css'
 import Clock from './clock.jsx'
+import { MdDelete, MdPadding } from "react-icons/md";
 
 function Todo() {
     const [inputValue ,setInputval]= useState(" ");
@@ -14,6 +15,12 @@ function Todo() {
         setTask((prev) => [...prev,inputValue] )
         setInputval("")
     }
+
+    const handleDelete = (value)=>{
+      const updateTask = task.filter((curTask)=>curTask !== value )
+      setTask(updateTask)
+    }
+    
   return (
     <section className="todo-container">
       <header>
@@ -25,16 +32,21 @@ function Todo() {
             <div>
                 <input type="text" className="todo-input" value={inputValue}onChange={(event) => handleInputChange(event.target.value)}
                 />
+                  
                 <button type="submit" className="todo-btn" 
                 >
                 Add Task
                 </button>
             </div>
             <div>
-                <ul className="task-list">
+                <ul className="task-list" >
+                
                     {task.map((item, index) => (
-                        <li key={index} className="task-item">{item}</li>
+                        <li key={index} className="task-item">{item}<MdDelete className="DeleteButton" onClick={() => handleDelete(item)} /></li>
+                        
+                        
                     ))}
+                    
                 </ul>
             </div>
         </form>
